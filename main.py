@@ -3,7 +3,7 @@ import threading
 import time
 print("Dont run this code on personal computer")
 print("Enter url of website")
-a-input()
+a=input()
 # Function to send HTTP requests to the server
 def send_requests(url, num_requests):
     try:
