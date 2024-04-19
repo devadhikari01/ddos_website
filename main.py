@@ -2,6 +2,8 @@ import requests
 import threading
 import time
 print("Dont run this code on personal computer")
+print("Enter url of website")
+a-input()
 # Function to send HTTP requests to the server
 def send_requests(url, num_requests):
     try:
@@ -32,7 +34,7 @@ def start_load_test(url, total_requests, batch_size, num_threads):
 
 # Example usage
 if __name__ == "__main__":
-    url = input ("enter url of website")
+    url = a
     total_requests = 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000  # Total number of requests to send
     batch_size = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000  # Number of requests per batch
     num_threads = 1000000000000000000000000000000000000000000000000000000000000000000000000000  # Number of threads (concurrent users)
